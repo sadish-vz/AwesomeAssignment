@@ -1,2 +1,2 @@
 language: java 
-script: InitialTests.java
+script: InitialTests.class
