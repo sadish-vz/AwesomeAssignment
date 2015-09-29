@@ -1,1 +1,2 @@
-language: java script: InitialTests.java
+language: java 
+script: InitialTests.java
