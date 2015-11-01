@@ -1,3 +1,57 @@
+-- Sequence: public."customer_ID_seq"
+
+-- DROP SEQUENCE public."customer_ID_seq";
+
+CREATE SEQUENCE public."customer_ID_seq"
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 27
+  CACHE 1;
+ALTER TABLE public."customer_ID_seq"
+  OWNER TO postgres;
+
+-- Sequence: public."customeraccount_ID_seq"
+
+-- DROP SEQUENCE public."customeraccount_ID_seq";
+
+CREATE SEQUENCE public."customeraccount_ID_seq"
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 16
+  CACHE 1;
+ALTER TABLE public."customeraccount_ID_seq"
+  OWNER TO postgres;
+
+
+-- Sequence: public."orderdetails_ID_seq"
+
+-- DROP SEQUENCE public."orderdetails_ID_seq";
+
+CREATE SEQUENCE public."orderdetails_ID_seq"
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 21
+  CACHE 1;
+ALTER TABLE public."orderdetails_ID_seq"
+  OWNER TO postgres;
+
+
+-- Sequence: public."product_ID_seq"
+
+-- DROP SEQUENCE public."product_ID_seq";
+
+CREATE SEQUENCE public."product_ID_seq"
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 25
+  CACHE 1;
+ALTER TABLE public."product_ID_seq"
+  OWNER TO postgres;
+
 -- Table: public.customer
 
 -- DROP TABLE public.customer;
